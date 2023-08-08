@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-08T22:28:59 IST" name="Add_to_cart_pageTest" finished-at="2023-08-08T22:29:11 IST" duration-ms="12009">
+    <groups>
+    </groups>
+    <test started-at="2023-08-08T22:28:59 IST" name="Command line test" finished-at="2023-08-08T22:29:11 IST" duration-ms="12009">
+      <class name="Add_to_cart_pageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Add_to_cart_pageTest@69453e37]" started-at="2023-08-08T22:28:59 IST" name="setup" finished-at="2023-08-08T22:29:07 IST" duration-ms="8008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickitemTest()[pri:1, instance:Add_to_cart_pageTest@69453e37]" started-at="2023-08-08T22:29:07 IST" name="clickitemTest" finished-at="2023-08-08T22:29:11 IST" duration-ms="3957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickitemTest -->
+      </class> <!-- Add_to_cart_pageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Add_to_cart_pageTest -->
+</testng-results>
