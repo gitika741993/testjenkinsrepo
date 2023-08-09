@@ -15,6 +15,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringDecorator;
 import org.openqa.selenium.support.events.WebDriverListener;
 
+import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
+
 
 
 
@@ -47,6 +49,7 @@ public class Basecl {
 	public static void initialization()
 	{    
 		ChromeOptions options = new ChromeOptions();
+		ChromeDriverManager.chromedriver().setup();
 	    options.addArguments("--remote-allow-origins=*");
 	    //WebDriver driver = new ChromeDriver(options);
 		String browsername = prop.getProperty("browser");
